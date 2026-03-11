@@ -1,0 +1,3 @@
+fetch('firebase.json')
+  .then(res => res.json())
+  .then(config => console.log(config));
